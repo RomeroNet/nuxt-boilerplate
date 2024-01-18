@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  node:
+    build:
+      context: docker/node
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+      - 24678:24678
+    user: "1000:1000"
+    volumes:
+      - ./:/app
