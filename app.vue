@@ -1,5 +1,12 @@
+<script setup lang="ts">
+  import { setUp as setUpTitle } from '~/store/Title';
+  setUpTitle();
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtLayout name="default">
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>

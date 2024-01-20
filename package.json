@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2",
+    "@vue/language-server": "^1",
     "eslint": "^8",
     "nuxt": "^3",
     "typescript": "^5",
